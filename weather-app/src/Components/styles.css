@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+
+
+body {
+	background-image: url("https://yokotafss.com/wp-content/uploads/2020/04/GettyImages-1160134500.jpg");
+}
+
+.wrapper {
+	text-align: center;
+	border: 1px solid black;
+	width: 40%;
+	margin: 0 auto;
+}
+.wrapper h1{
+    margin:0;
+    margin-top:20px;
+}
+.location {
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+}
+.temp {
+	font-size: 50px;
+	margin: 0;
+	padding: 10px;
+}
+.description {
+	color: black;
+	font-family: "Recursive", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+.heading {
+	text-align: center;
+    font-family: "Recursive", sans-serif;
+}
+
+.image {
+	text-align: center;
+}
+.image img {
+	height: 150px;
+}
+.city {
+	margin-left: 30px;
+    font-family: "Recursive", sans-serif;
+}
+p {
+	margin: 0;
+}
+.feels {
+	font-size: 20px;
+	color: grey;
+    margin-left: 10px;
+}
+.date {
+	margin-bottom: 20px;
+    font-family: "Recursive", sans-serif;
+}
+.wrapper1 {
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+}
+.details {
+    margin-left: 20px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-family: "Recursive", sans-serif;
+}
+.icons{
+    margin-right: 15px;
+    color:hotpink
+}
