@@ -2,7 +2,7 @@
 	"name": "my",
 	"version": "0.1.0",
 	"private": false,
-	"homepage": "https://kritibagga/github.io/Weather-Application",
+	"homepage": "https://kritibagga.github.io/Weather-Application",
 	"dependencies": {
 		"@fortawesome/free-regular-svg-icons": "^6.3.0",
 		"@fortawesome/free-solid-svg-icons": "^6.3.0",
