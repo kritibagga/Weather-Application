@@ -73,7 +73,7 @@ function App() {
 		wind: {
 			speed: "--",
 		},
-		timezone:"--",
+		timezone: "--",
 		weather: [{ description: "Weather description", icon: "04n" }],
 	};
 
@@ -81,31 +81,37 @@ function App() {
 		<div>
 			<div className='search'>
 				<form onSubmit={handleSearch}>
-					<input
-						className='input'
-						type='search'
-						placeholder='Type the City'
-						onChange={handleChange}
-						value={searchInput}
-					/>
-					<input
-						className='country-input'
-						type='search'
-						placeholder='Type the Country'
-						onChange={handleCountry}
-						value={country}
-					/>
-					<button
-						type='submit'
-						className='button'>
-						Get Weather
-					</button>
-					<button
-						type='button'
-						className='button'
-						onClick={handleRefresh}>
-						Reset
-					</button>
+					<div className='section'>
+						<div className='input-wrapper'>
+							<input
+								className='input'
+								type='search'
+								placeholder='Type the City'
+								onChange={handleChange}
+								value={searchInput}
+							/>
+							<input
+								className='country-input'
+								type='search'
+								placeholder='Type the Country'
+								onChange={handleCountry}
+								value={country}
+							/>
+						</div>
+						<div className='buttons-wrapper'>
+							<button
+								type='submit'
+								className='button'>
+								Get Weather
+							</button>
+							<button
+								type='button'
+								className='button'
+								onClick={handleRefresh}>
+								Reset
+							</button>
+						</div>
+					</div>
 				</form>
 			</div>
 			{typeof data.main !== "undefined" ? (
