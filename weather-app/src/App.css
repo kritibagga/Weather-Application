@@ -7,13 +7,16 @@
 .input {
 	width: 50%;
 	margin-top: 44px;
-	border: none;
+	border: 0;
 	border-bottom: 1px solid black;
 	padding: 10px;
 	background-color: inherit;
 	margin-right: 20px;
 	appearance: none;
 	-webkit-appearance: none;
+	outline: none;
+	border-radius: 0;
+	box-shadow: 0;
 }
 
 .country-input {

@@ -140,8 +140,10 @@ p {
 		margin-bottom: 2rem;
 		display: grid;
 		border-radius: 20px;
-		grid-template-columns: 19% 128%;
+		grid-template-columns: 21% 133%;
 		justify-items: start;
+		align-items: center;
+		justify-content: center;
 	}
 	.grid {
 		margin: 0 auto;
@@ -149,9 +151,6 @@ p {
 }
 
 @media screen and (max-width: 375px) {
-	.grid {
-		margin: 0 auto;
-	}
 	.details {
 		font-size: 15px;
 	}
