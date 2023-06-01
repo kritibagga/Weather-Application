@@ -37,6 +37,9 @@
 	cursor: pointer;
 	transition: transform 0.2s;
 	border: none;
+	color: black;
+	appearance: none;
+	-webkit-appearance: none;
 }
 .button:hover {
 	background-color: darksalmon;
