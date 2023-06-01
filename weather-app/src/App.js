@@ -38,7 +38,6 @@ function App() {
 				.then(({ lat, lon }) => {
 					setLat(lat);
 					setLon(lon);
-					console.log(`Latitude: ${lat}, Longitude: ${lon}`);
 				})
 				.catch((error) => {
 					console.error(error);
