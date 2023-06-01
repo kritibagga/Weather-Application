@@ -22,10 +22,15 @@
 .country-input {
 	width: 50%;
 	margin-top: 44px;
-	border: none;
+	border: 0;
 	border-bottom: 1px solid black;
 	padding: 10px;
 	background-color: inherit;
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	border-radius: 0;
+	box-shadow: 0;
 }
 .input:focus-visible,
 .country-input:focus-visible {
